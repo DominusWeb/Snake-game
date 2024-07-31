@@ -19,6 +19,7 @@ class SnakeGame:
         self.screen.bgcolor('black')
         self.screen.tracer(0)
 
+
         snake = Snake()
         food = Food()
         scoreboard = ScoreBoard()
@@ -61,7 +62,7 @@ class SnakeGame:
 
 snake_game = SnakeGame()
 
-'''Thing to impove:
+'''Things to impove:
 - Turtle hide when game over
 - Collapse in the very side of the wall
 - Ball doesn´t appear where is a part of the snake
